@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://sheltered-wildwood-50048.herokuapp.com/'; //Heroku URL HERE! instead of local / only
 }
 
 function getQueryStringParameterByName(name, url) {
